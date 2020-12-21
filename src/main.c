@@ -1,6 +1,7 @@
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "menu.h"
 
 /* 
     Commande de compilation avec gcc :
@@ -13,7 +14,6 @@ int main(int argc, char **argv)
     SDL_VERSION(&nb);
 
     printf("Bienvenue sur la DSL %d.%d.%d !\n", nb.major, nb.minor, nb.patch);
-
     return 0;
 }
  
