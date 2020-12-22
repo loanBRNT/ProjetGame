@@ -23,7 +23,7 @@ void InteractionMenu(SDL_Window *window, SDL_Renderer *renderer){
 SDL_Texture* CreationMenu(SDL_Window *window, SDL_Renderer *renderer){
 	SDL_Surface* image_fond = NULL;
 	SDL_Texture* texture = NULL;
-	image_fond = SDL_LoadBMP("img/fond_espace.bmp"); //On charge une image
+	image_fond = SDL_LoadBMP("img/fond/fond_espace_note.bmp"); //On charge une image
 	if (image_fond == NULL) {
 		DestructionFenAndRen(window, renderer);
 		RetourErreur("Impossible de charger l'image");
