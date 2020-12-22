@@ -2,12 +2,13 @@
 
 - Installation de la Bibliothèque SDL réussie. 
 - Création de la Fenètre et mise en place d'une image de fond (2 Warning à traiter)
+- Design de 1 Map et des batiments faits
 
 
 
 **Axe de réflexion sur le jeux :**
 
-- 3 familles d'unité ? Humain, alien, robot ?
+- 3 familles d'unité ? Humain, alien, robot ? Bleu, Rouge, Vert ?
 - Ouvrier : récoletes de ressources
 - Soldat Léger
 - Soldat Lourd
