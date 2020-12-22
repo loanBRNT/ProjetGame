@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include "menu.h"
 #include "erreur.h"
+#include "jeux.h"
+#include "animation.h"
+#include "lancement.h"
+#include "chargement.h"
 
 
 
@@ -30,12 +34,10 @@ int main(int argc, char **argv)
     SDL_VERSION(&nb);
     printf("Bienvenue sur la DSL %d.%d.%d !\n", nb.major, nb.minor, nb.patch);
 
-/*----------------------------------------------*/
-
     if (SDL_CreateWindowAndRenderer(LARGEUR_FEN, HAUTEUR_FEN, 0, &window, &renderer) !=0){
     	RetourErreur("Creation de la Fentre/rendu echouee");
     }
-
+/*----------------------------------------------*/
     InteractionMenu(window, renderer);
 /*----------------------------------------------*/
 

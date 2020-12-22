@@ -13,7 +13,7 @@ void InteractionMenu(SDL_Window *window, SDL_Renderer *renderer){
 
 
 	SDL_Delay(5000);
-
+	
 
 	/*----------*/
 	SDL_DestroyTexture(Img_fond);
