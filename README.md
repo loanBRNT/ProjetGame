@@ -10,11 +10,11 @@
 
 - Bleu VS Rouge
 - Ouvrier : récoletes de ressources
-- Soldat Léger
-- Soldat Lourd
-- Machine Lourde
-- Machine à distance
-- Eclaireur
+- Soldat Léger (guerrier)
+- Soldat Lourd (défenseur)
+- Soldat à distance (archer)
+- Machine Lourde (Vindicateur)
+- Machine à distance (canon)
 
 
 
