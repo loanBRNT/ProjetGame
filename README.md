@@ -8,7 +8,7 @@
 
 **Axe de réflexion sur le jeux :**
 
-- 3 familles d'unité ? Humain, alien, robot ? Bleu, Rouge, Vert ?
+- Bleu VS Rouge
 - Ouvrier : récoletes de ressources
 - Soldat Léger
 - Soldat Lourd
