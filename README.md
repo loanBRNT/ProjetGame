@@ -14,7 +14,7 @@
 - Soldat Lourd (défenseur)
 - Soldat à distance (archer)
 - Machine Lourde (Vindicateur)
-- Machine à distance (canon)
+- Machine à distance (canon) [PLUS TARD]
 
 
 
