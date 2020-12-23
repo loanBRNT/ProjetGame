@@ -6,7 +6,7 @@
 
 
 
-**Axe de réflexion sur le jeux :**
+## Axe de réflexion sur le jeux :
 
 - Bleu VS Rouge
 - Ouvrier : récoletes de ressources
@@ -18,9 +18,9 @@
 
 
 
-**Axe à créer :**
+## Axe à créer
 
-- Menu du jeux
+- Menu du jeux (ELIOTT)
 - Design des unités
 - Gestion des ressources
 - Gestion des unités
@@ -28,4 +28,5 @@
 - Gestion des batiments
 - Carte de jeux
 - Intéractions
-
+- Tile Mapping
+- SAUVEGARDE (LOAN)
