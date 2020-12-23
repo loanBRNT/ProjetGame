@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "menu.h"
+#include "erreur.h"
 
 #define LARGEUR_FEN 1280
 #define HAUTEUR_FEN 720
@@ -47,3 +48,4 @@ SDL_Texture* CreationMenu(SDL_Window *window, SDL_Renderer *renderer){
 	}
 	return texture;
 }
+

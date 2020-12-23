@@ -20,7 +20,7 @@ J1 R
 .
 12 //Nb d'ouvrier
 75 //Monnaie
-J2 R
+J2 B
 5 //Nb d'unité
 6 13 10 //Unité en 6x13 à 10HP
 ...

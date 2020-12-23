@@ -2,7 +2,7 @@
 #define LANCEMENT_H
 
 
-
+FILE* CreationSauvegarde(int Emplacement, char* NomSauvegarde, char CouleurJ1);
 
 
 
