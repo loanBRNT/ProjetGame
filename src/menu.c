@@ -2,9 +2,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "menu.h"
+#include "erreur.h"
 
 #define LARGEUR_FEN 1280
 #define HAUTEUR_FEN 720
+
+
+void CreationFenAndRenAndIco(SDL_Window *window, SDL_Renderer *renderer, SDL_Surface *surface)
+{
+	if (SDL_CreateWindowAndRenderer(LARGEUR_FEN, HAUTEUR_FEN, 0, &window, &renderer) !=0)
+	{
+    	RetourErreur("Creation de la Fentre/rendu echouee");
+	}
+
+    surface = SDL_LoadBMP("img/icone/icone.bmp");
+
+    if (surface == NULL)
+    {
+    	RetourErreur("Creation de l'icone echouee");
+    }
+    SDL_SetWindowIcon(window,surface);
+}
 
 void InteractionMenu(SDL_Window *window, SDL_Renderer *renderer){
 	SDL_Texture *Img_fond = CreationMenu(window, renderer);
@@ -12,7 +30,7 @@ void InteractionMenu(SDL_Window *window, SDL_Renderer *renderer){
 	/*----------*/
 
 
-	SDL_Delay(5000);
+	SDL_Delay(20000);
 	
 
 	/*----------*/

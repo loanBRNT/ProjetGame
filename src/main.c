@@ -22,8 +22,9 @@
 int main(int argc, char **argv)
 {
     SDL_version nb;
-    SDL_Window *window = NULL;
-    SDL_Renderer *renderer = NULL;
+    SDL_Window *ecran = NULL;
+    SDL_Renderer *rendEcran = NULL;
+    SDL_Surface *icone = NULL;
 
 
     if (SDL_Init(SDL_INIT_EVERYTHING) !=0){ //Initialisation de la SDL
@@ -34,11 +35,12 @@ int main(int argc, char **argv)
     SDL_VERSION(&nb);
     printf("Bienvenue sur la DSL %d.%d.%d !\n", nb.major, nb.minor, nb.patch);
 
-    if (SDL_CreateWindowAndRenderer(LARGEUR_FEN, HAUTEUR_FEN, 0, &window, &renderer) !=0){
-    	RetourErreur("Creation de la Fentre/rendu echouee");
-    }
+
+// creation fenetre
+    CreationFenAndRenAndIco(ecran,rendEcran,icone);
+
 /*----------------------------------------------*/
-    InteractionMenu(window, renderer);
+    InteractionMenu(ecran, rendEcran);
 /*----------------------------------------------*/
 
     SDL_Quit(); //Sortie de la SDL
