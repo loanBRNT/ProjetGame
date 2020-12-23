@@ -39,6 +39,7 @@ FILE* CreationSauvegarde(int Emplacement, char* NomSauvegarde, char CouleurJ1){
 		printf("Impossible d'ouvrir les fichiers de sauvegarde");
 	}
 	fclose(Base_map_1);
+	fprintf(fichier_sauvegarde, "J1 %s\n0\n6\n25\nJ2\n0\n6\n25\n", CouleurJ1); //On ecris les valeurs par defauts d'unite, d'ouvrier et d'argent
 	fclose(fichier_sauvegarde);
 	return fichier_sauvegarde;
 }
