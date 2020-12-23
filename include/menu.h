@@ -1,6 +1,7 @@
 #ifndef MENU_H
 #define MENU_H
 
+void CreationFenAndRenAndIco(SDL_Window *window, SDL_Renderer *renderer, SDL_Surface *surface);
 
 void InteractionMenu(SDL_Window *window, SDL_Renderer *renderer); //Permet de gérer les intéractions de l'utilisateur sur le menu
 

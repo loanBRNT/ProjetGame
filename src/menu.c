@@ -20,6 +20,9 @@ void InteractionMenu(SDL_Window *window, SDL_Renderer *renderer){
 	DestructionFenAndRen(window, renderer);
 }
 
+
+
+
 SDL_Texture* CreationMenu(SDL_Window *window, SDL_Renderer *renderer){
 	SDL_Surface* image_fond = NULL;
 	SDL_Texture* texture = NULL;
