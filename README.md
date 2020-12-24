@@ -50,7 +50,7 @@ Les unités de combats ont toutes 2 niveaux (niveau 0 (base), niveau 1 (amélior
 (A = attaque (+ amélioration), D = défense (+ amélioration), M = case de déplacement)
 
 - **Ouvrier** | A = 0 | D = 0 | M = 0 | Coût de Formation : 10 | Temps de formation : Immédiat
-L'ouvrier est une unité que le joueur forme depuis l'hotel de ville. Le joueur sélectionne la mine à laquelle l'ouvrier va travailler. L'ouvrier peut à tout moment être changé dans une autre mine. Chaque ouvrier récole 5 minerai (mine lv 1), 7 minerai (mine lv 2) à chaque tour. 
+L'ouvrier est une unité que le joueur forme depuis l'hotel de ville. Le nombre d'ouvrier est limité par les places disponibles dans les mines. Chaque ouvrier récole 5 minerai (mine lv 1), 7 minerai (mine lv 2) à chaque tour. 
 
 - **Guerrier** | A = 15 (+5) | D = 20 (+8) | M = 2 | Coût Formation : 15 | Temps de formations : 1 tour
 Le Guerrier est l'unité de base. Il peut attaquer dans un rayon de 1 case autour de lui, juste après s'être déplacé. 

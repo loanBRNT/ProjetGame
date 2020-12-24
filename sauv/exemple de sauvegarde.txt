@@ -13,6 +13,7 @@ NOM_DE_LA_SAUVEGARDE
 -1 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 -1
 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 J1 R
+0 0 0 0 //Niveau d'amélioration
 4 //Nb d'unité
 4 4 15 //Unité en 4x4 a 15HP
 ...
@@ -21,6 +22,7 @@ J1 R
 12 //Nb d'ouvrier
 75 //Monnaie
 J2
+0 0 0 0 //Niveau d'amélioration (Guerrier | Archer | Defenseur | Vindicateur)
 5 //Nb d'unité
 6 13 10 //Unité en 6x13 à 10HP
 ...
