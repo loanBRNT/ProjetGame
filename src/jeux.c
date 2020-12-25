@@ -19,6 +19,6 @@ int RecolteMinerai(int nb_ouvrier, int nb_mine_niv2){ //Fonction qui renvoie le 
 			}
 		}
 	}
-	gain = gain + (GAIN_MINE_LV1 * nb_ouvrier)
+	gain = gain + (GAIN_MINE_LV1 * nb_ouvrier);
 	return gain;
 }

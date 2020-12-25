@@ -48,4 +48,3 @@ SDL_Texture* CreationMenu(SDL_Window *window, SDL_Renderer *renderer){
 	}
 	return texture;
 }
-
