@@ -1,4 +1,4 @@
-# Journal de Bord
+# Journal de Bord /en pause/
 
 - Installation de la Bibliothèque SDL réussie. 
 - Création de la Fenètre et mise en place d'une image de fond (2 Warning à traiter)
